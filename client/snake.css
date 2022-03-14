@@ -1,0 +1,67 @@
+.head {
+  background-color: black;
+
+  padding: 10px 307px;
+  text-align: center;
+ color: black;
+  
+}
+
+.navBar {
+    text-align: center;
+    text-color: white;
+    overflow: hidden;
+    background-color: black;
+    padding: 20px;
+}
+
+.navBar > .rightSide {
+    text-transform: uppercase;
+}
+.navBar > .leftSide > div {
+    margin-right: 15px;
+    font-size: 0.99em;
+    text-transform: uppercase;
+}
+
+.navBar{
+    border-color: #0a6ebd;
+    background-color: darkgreen;
+}
+
+h1{
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+     /*   arranging items on screen  */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  position: fixed;
+}
+#game {
+  top: 28%;
+  left:33%;
+  position: fixed;
+  /*   */ 
+  /* nice background shadow of the canvas  */ 
+    box-shadow: rgb(37, 0, 10) 20px 10px 50px;
+}
+.box{
+  
+  background-image: url(soccer-field-football-background.jpg);
+  padding: 600px 1000px 200px 200px;
+  margin: 10px 10px;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+
